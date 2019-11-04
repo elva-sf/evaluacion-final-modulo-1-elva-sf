@@ -2,36 +2,69 @@
   border: solid 4px;
   background-color: $ice-blue;
   &__title {
+    font-family: $font-secondary;
+    $fonfont-weight: bold;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 30px 0 45px 15px;
+    text-align: center;
   }
   &__box {
+    background-color: $ice-blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 45px;
+    text-align: center;
   }
   &__mini-box {
+    /* border: solid 2px red; */
+    height: 63px;
+    display: grid;
+    text-align: center;
   }
   &__h3 {
+    font-family: $font-secondary;
+    $fonfont-weight: bold;
+    font-size: 18px;
   }
   &__p {
+    font-family: $font-primary;
+    font-weight: normal;
+    font-size: 18px;
+    /* min-width: 180px; */
   }
   &__link-moreReasons {
     height: 45px;
-    width: 45px;
-    background-color: $white;
+    width: 184px;
+    background-color: $orange;
     position: relative;
-    border-radius: 50%;
-  }
-  &__link-box {
-    height: 45px;
-    width: 45px;
-    background-color: $white;
-    position: relative;
-    border-radius: 50%;
-  }
-  &__link-upArrow {
-    height: 45px;
-    width: 45px;
-    background-image: url("../images/ico-arrow.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    border-radius: 22.5px;
+    text-align: center;
+    padding: 12px 0 0 0;
+    text-decoration: none;
+    color: $white;
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 60px 68px 60px;
 
-    position: absolute;
+    &__link-box {
+      height: 45px;
+      width: 45px;
+      background-color: $white;
+      position: relative;
+      bottom: 150px;
+      border-radius: 50%;
+    }
+    &__link-upArrow {
+      height: 45px;
+      width: 45px;
+      background-image: url("../images/ico-arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      z-index: 999;
+    }
   }
 }
