@@ -1,4 +1,50 @@
 .looking {
-  border: solid 4px;
-  background-color: orchid;
+  /*  border: solid 4px; */
+  /*   min-height: 376px; */
+  text-align: left;
+  width: 290px;
+  &__h3 {
+    width: 290px;
+    /* border: solid 2px; */
+    /*  display: inline; */
+    font-family: 14px;
+    text-transform: capitalize;
+    font-size: Roboto;
+    color: #8ccbea;
+    margin: 0 215px 0 15px;
+  }
+  &__title {
+    /* border: solid 2px red; */
+    font-family: RobotoSlab-Bold;
+    font-size: 24px;
+    color: #000000;
+    text-transform: capitalize;
+
+    min-width: 280px;
+    height: 60px;
+    text-align: left;
+    margin-left: 15px;
+  }
+  &__p {
+    /* border: solid 2px orange; */
+    color: #4a4a4a;
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    padding: 0 15px;
+    height: 120px;
+  }
+  &__go {
+    border: solid 2px #f26002;
+    color: #f26002;
+    background-color: white;
+
+    font-family: Roboto-Medium, sans-serif;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border-radius: 22.5px;
+    padding: 0 25px;
+    min-width: 76px;
+    min-height: 45px;
+    margin: 28px 0 45px 15px;
+  }
 }
