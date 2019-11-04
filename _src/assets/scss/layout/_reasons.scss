@@ -1,10 +1,37 @@
 .reasons {
   border: solid 4px;
-  background-color: olivedrab;
+  background-color: $ice-blue;
   &__title {
   }
   &__box {
   }
-  &__title {
+  &__mini-box {
+  }
+  &__h3 {
+  }
+  &__p {
+  }
+  &__link-moreReasons {
+    height: 45px;
+    width: 45px;
+    background-color: $white;
+    position: relative;
+    border-radius: 50%;
+  }
+  &__link-box {
+    height: 45px;
+    width: 45px;
+    background-color: $white;
+    position: relative;
+    border-radius: 50%;
+  }
+  &__link-upArrow {
+    height: 45px;
+    width: 45px;
+    background-image: url("../images/ico-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
   }
 }
