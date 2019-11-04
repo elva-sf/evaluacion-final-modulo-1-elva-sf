@@ -1,4 +1,67 @@
 .header {
-  border: solid 4px;
   background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 320px;
+  min-height: 558px;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  font-size: 42px;
+  &__burguer {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 44px;
+    width: 44px;
+    background-color: #0271bc;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__burguer-box {
+    height: 14px;
+    width: 14px;
+  }
+
+  &__container {
+    /* border: solid 2px red; */
+    width: 290px;
+    padding: 284px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__main-title {
+    /* border: solid 2px magenta; */
+    font-family: RobotoSlab-Bold;
+    text-transform: uppercase;
+
+    font-size: 42px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  &__sub-title {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    min-width: 290px;
+    min-height: 21px;
+  }
+  &__down-arrow {
+    border-radius: 50%;
+    /* border: solid 2px green; */
+    margin: 53px 0;
+    flex-direction: column;
+  }
+  &__down-arrow-box {
+    width: 45px;
+    height: 45px;
+    transform: translateY(18px);
+  }
 }
