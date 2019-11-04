@@ -5,7 +5,7 @@
   background-size: cover;
   min-width: 320px;
   min-height: 558px;
-  color: white;
+  color: $white;
   display: flex;
   justify-content: center;
   margin: 0 0 30px 0;
@@ -18,7 +18,7 @@
     height: 44px;
     width: 44px;
     box-shadow: none;
-    background-color: #0271bc;
+    background-color: $medium-blue;
     display: flex;
     justify-content: center;
   }
