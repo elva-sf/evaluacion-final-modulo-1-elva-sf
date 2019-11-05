@@ -73,6 +73,22 @@
     overflow: visible;
     transform: translateY(50%);
     margin: 0 auto;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    @keyframes flash {
+      from {
+        border: solid 3px $white;
+      }
+
+      50% {
+        border: solid 3px $light-blue;
+      }
+      to {
+        border: solid 3px $grey;
+      }
+    }
   }
   &__link-upArrow {
     height: 45px;
