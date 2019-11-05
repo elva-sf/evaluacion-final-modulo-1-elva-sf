@@ -1,41 +1,37 @@
 .looking {
-  /*  border: solid 4px; */
-  /*   min-height: 376px; */
+  position: inline-block;
   text-align: left;
-  width: 290px;
+  margin: 0 auto;
+  padding: 0 0 60px 15px;
+  @media all and (min-width: 768px) {
+    margin: 0 39px;
+  }
+  @media all and (min-width: 1200px) {
+    margin: 0 275px;
+  }
   &__h3 {
-    width: 290px;
-    /* border: solid 2px; */
-    /*  display: inline; */
     font-family: 14px;
     text-transform: capitalize;
     font-size: $font-primary;
     font-weight: normal;
     color: $light-blue;
-    margin: 0 215px 0 15px;
+    margin: 0 auto;
   }
   &__title {
-    /* border: solid 2px red; */
     font-family: $font-secondary;
     font-weight: bold;
     font-size: 24px;
     color: $black;
     text-transform: capitalize;
-
-    min-width: 280px;
-    height: 60px;
     text-align: left;
-    margin-left: 15px;
+    margin: 0 auto;
   }
   &__p {
-    /* border: solid 2px orange; */
     color: $grey;
     font-size: 18px;
     font-family: $font-primary;
     font-weight: normal;
-    padding: 15px 15px 0 15px;
-    height: 120px;
-    margin-bottom: 30px;
+    margin: 15px auto 30px auto;
   }
   &__go {
     border: solid 2px $orange;
@@ -44,15 +40,12 @@
     text-decoration: unset;
     font-family: $font-primary;
     font-weight: 500;
-    /* font-weight: bold; */
     font-size: 20px;
     border-radius: 22.5px;
     padding: 10px 25px;
-
     min-width: 76px;
     min-height: 45px;
-    margin: 28px 0 45px 15px;
-
+    margin: 28px auto 45px auto;
     transition: color ease 0.8s;
     &:hover {
       background-color: $dark-blue;
