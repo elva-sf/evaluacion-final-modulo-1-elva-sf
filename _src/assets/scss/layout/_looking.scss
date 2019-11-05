@@ -35,18 +35,20 @@
     font-weight: normal;
     padding: 15px 15px 0 15px;
     height: 120px;
+    margin-bottom: 30px;
   }
   &__go {
     border: solid 2px $orange;
     color: $orange;
     background-color: $white;
-
+    text-decoration: unset;
     font-family: $font-primary;
     font-weight: 500;
     /* font-weight: bold; */
     font-size: 20px;
     border-radius: 22.5px;
-    padding: 0 25px;
+    padding: 10px 25px;
+
     min-width: 76px;
     min-height: 45px;
     margin: 28px 0 45px 15px;
