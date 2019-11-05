@@ -46,24 +46,24 @@
     font-family: $font-primary;
     font-weight: 500;
     font-size: 20px;
-    margin: 0 60px 68px 60px;
-
-    &__link-box {
-      height: 45px;
-      width: 45px;
-      background-color: $white;
-      position: relative;
-      bottom: 150px;
-      border-radius: 50%;
-    }
-    &__link-upArrow {
-      height: 45px;
-      width: 45px;
-      background-image: url("../images/ico-arrow.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      position: absolute;
-      z-index: 999;
-    }
+    margin: 0 auto 68px auto;
+  }
+  &__link-box {
+    height: 45px;
+    width: 45px;
+    background-color: $white;
+    position: relative;
+    border-radius: 50%;
+    overflow: visible;
+    transform: translateY(50%);
+    margin: 0 auto;
+  }
+  &__link-upArrow {
+    height: 45px;
+    width: 45px;
+    background-image: url("../images/ico-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
   }
 }
