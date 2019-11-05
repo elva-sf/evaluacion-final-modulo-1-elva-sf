@@ -3,13 +3,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 558px;
+  min-height: 568px;
   color: $white;
   display: flex;
   justify-content: center;
   margin: 0 0 30px 0;
-  font-size: 42px;
-
+  @media all and (min-width: 768px) {
+    min-height: 768px;
+  }
   &__burguer {
     position: fixed;
     left: 0px;
@@ -43,6 +44,14 @@
     font-size: 42px;
     flex-wrap: wrap;
     text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+      margin-top: 95px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 100px;
+      margin-top: 103px;
+    }
   }
 
   &__sub-title {
@@ -51,11 +60,20 @@
     min-width: 290px;
     min-height: 21px;
     text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+    }
   }
   &__down-arrow {
     border-radius: 50%;
-    margin: 53px 0;
+    margin: 45px auto 53px auto;
     flex-direction: column;
+    @media all and (min-width: 768px) {
+      margin: 30px auto 45px auto;
+    }
+    @media all and (min-width: 1200px) {
+      margin: 13px auto 30px auto;
+    }
   }
   &__down-arrow-box {
     width: 45px;

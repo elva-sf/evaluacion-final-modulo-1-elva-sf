@@ -63,6 +63,12 @@
       background-color: $dark-blue;
       color: $orange;
     }
+    @media all and (min-width: 768px) {
+      width: 210px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 255px;
+    }
   }
   &__link-box {
     height: 45px;
