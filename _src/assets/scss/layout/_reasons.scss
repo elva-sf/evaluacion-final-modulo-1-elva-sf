@@ -48,6 +48,11 @@
     font-weight: 500;
     font-size: 20px;
     margin: 0 auto 68px auto;
+    transition: color ease 0.8s;
+    &:hover {
+      background-color: $dark-blue;
+      color: $orange;
+    }
   }
   &__link-box {
     height: 45px;
