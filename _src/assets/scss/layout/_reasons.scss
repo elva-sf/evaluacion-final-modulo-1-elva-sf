@@ -5,7 +5,8 @@
     $fonfont-weight: bold;
     text-transform: capitalize;
     font-size: 24px;
-    margin: 30px 0 45px 15px;
+    margin: 30px auto 45px auto;
+    padding: 60px 0 0 0;
     text-align: center;
   }
   &__box {
